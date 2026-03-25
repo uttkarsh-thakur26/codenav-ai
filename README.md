@@ -156,7 +156,7 @@ Open **two terminals** from the project root:
 **Terminal 1 — Backend**
 
 ```bash
-uvicorn api.server:app --reload --reload-exclude "data/*"
+uvicorn api.server:app --reload --reload-exclude data
 ```
 
 **Terminal 2 — Frontend**
