@@ -176,20 +176,6 @@ The frontend dev server proxies API requests to the FastAPI backend automaticall
 
 ---
 
-## 🔒 What's Excluded from Git
-
-The `.gitignore` ensures sensitive and generated data never reaches the repository:
-
-| Path | Reason |
-|---|---|
-| `data/` | Cloned repos and FAISS indexes (local cache) |
-| `.env` | API keys and secrets |
-| `venv/` | Python virtual environment |
-| `__pycache__/` | Python bytecode |
-| `frontend/node_modules/` | npm dependencies |
-
----
-
 ## 📡 API Reference
 
 | Method | Endpoint | Description |
