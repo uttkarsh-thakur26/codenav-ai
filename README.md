@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">🧭 CodeNav AI</h1>
+  <h1 align="center">CodeNav AI</h1>
   <p align="center">
     <strong>A full-stack, local RAG assistant for chatting with GitHub repositories.</strong>
   </p>
@@ -19,19 +19,19 @@
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🐍 **Polyglot Ingestion** | Python files are parsed via AST for precise function/class extraction. JS, TS, and JSX files are chunked using a raw-text strategy. |
-| 💾 **Persistent Caching** | Cloned repos and FAISS indexes are stored locally in `data/`, so re-visits are instant. |
-| 🔄 **Smart Updates** | Runs `git pull` on cached repos — if the repo hasn't changed, indexing is skipped entirely. |
-| 🏗️ **Architecture Summarizer** | One-click generation of a structured Markdown overview of any indexed repository. |
-| 🖥️ **Modern UI** | Vite-powered React frontend with Tailwind CSS, real-time Markdown rendering, and a clean chat interface. |
+|  **Polyglot Ingestion** | Python files are parsed via AST for precise function/class extraction. JS, TS, and JSX files are chunked using a raw-text strategy. |
+|  **Persistent Caching** | Cloned repos and FAISS indexes are stored locally in `data/`, so re-visits are instant. |
+|  **Smart Updates** | Runs `git pull` on cached repos — if the repo hasn't changed, indexing is skipped entirely. |
+|  **Architecture Summarizer** | One-click generation of a structured Markdown overview of any indexed repository. |
+|  **Modern UI** | Vite-powered React frontend with Tailwind CSS, real-time Markdown rendering, and a clean chat interface. |
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 
@@ -51,7 +51,7 @@
 
 ---
 
-## 📐 Architecture
+##  Architecture
 
 ```
 User Question
@@ -75,7 +75,7 @@ User Question
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 codenav-ai/
@@ -108,7 +108,7 @@ codenav-ai/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -149,7 +149,7 @@ cd ..
 
 ---
 
-## ▶️ Running the App
+##  Running the App
 
 Open **two terminals** from the project root:
 
@@ -173,7 +173,7 @@ The frontend dev server proxies API requests to the FastAPI backend automaticall
 | Website | WILL DEPLOY IN FUTURE    |
 ---
 
-## 📡 API Reference
+##  API Reference
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -185,7 +185,7 @@ The frontend dev server proxies API requests to the FastAPI backend automaticall
 
 ---
 
-## 👤 Author
+##  Author
 
 **Uttkarsh Thakur**
 - GitHub: [@uttkarsh-thakur26](https://github.com/uttkarsh-thakur26)
